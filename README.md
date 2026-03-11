@@ -2,14 +2,14 @@
 
 This repo has three PMOIRED notebooks for binary-star interferometry:
 
-1. `simulating_binary_data_tutorial.ipynb`  
+1. [`simulating_binary_data_tutorial.ipynb`](simulating_binary_data_tutorial.ipynb)  
    Simulate VLTI/PIONIER binary data (clean + noisy) to see expected `V2` and `T3PHI` behavior.
-2. `binary_fitting_tutorial1.ipynb`  
+2. [`binary_fitting_tutorial1.ipynb`](binary_fitting_tutorial1.ipynb)  
    Continuum binary fitting with CHARA MIRC-X/MYSTIC data using `doFit`, `gridFit`, `showGrid`, and `detLim`.
-3. `binary_fitting_tutorial2.ipynb`  
+3. [`binary_fitting_tutorial2.ipynb`](binary_fitting_tutorial2.ipynb)  
    Advanced GRAVITY spectro-interferometric fitting (Br-gamma example on HR 6819).
 
-Example OIFITS files are in `data/`.
+Example OIFITS files are in [`data/`](data/).
 
 ## Quick start
 
