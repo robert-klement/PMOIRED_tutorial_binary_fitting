@@ -1,17 +1,18 @@
-# PMOIRED Binary Fitting Tutorial
+# PMOIRED Binary Fitting Tutorials
 
-This repository contains `binary_fitting_tutorial.ipynb`, a short hands-on tutorial for fitting binary star models to optical interferometry data with `pmoired`.
+This repo has three PMOIRED notebooks for binary-star interferometry:
 
-The notebook walks through:
-- inspecting calibrated `V2` and `T3PHI` data for binary signatures,
-- running model fits (`doFit`) and binary grid searches (`gridFit`),
-- visualizing grid-search significance (`showGrid`),
-- estimating companion detection limits for non-detections (`detLim`).
+1. `simulating_binary_data_tutorial.ipynb`  
+   Simulate VLTI/PIONIER binary data (clean + noisy) to see expected `V2` and `T3PHI` behavior.
+2. `binary_fitting_tutorial1.ipynb`  
+   Continuum binary fitting with CHARA MIRC-X/MYSTIC data using `doFit`, `gridFit`, `showGrid`, and `detLim`.
+3. `binary_fitting_tutorial2.ipynb`  
+   Advanced GRAVITY spectro-interferometric fitting (Br-gamma example on HR 6819).
 
-Data files used in the examples are included in the `data/` directory.
+Example OIFITS files are in `data/`.
 
 ## Quick start
 
-1. Install Python dependencies: `numpy`, `matplotlib`, and `pmoired`.
-2. Launch Jupyter and open `binary_fitting_tutorial.ipynb`.
-3. Run the notebook cells in order.
+1. Install `numpy`, `matplotlib`, and `pmoired`.
+2. Open the notebooks in Jupyter.
+3. Run cells top to bottom (recommended order: simulation, tutorial 1, tutorial 2).
