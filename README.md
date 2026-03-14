@@ -15,4 +15,4 @@ Example OIFITS files are in [`data/`](data/).
 
 1. Install `numpy`, `matplotlib`, and `pmoired`.
 2. Open the notebooks in Jupyter.
-3. Run cells top to bottom (recommended order: simulation, tutorial 1, tutorial 2).
+3. Run cells top to bottom.
